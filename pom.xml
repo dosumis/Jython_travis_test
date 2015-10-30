@@ -16,26 +16,4 @@
   		<version>1.5.1</version>
   	</dependency>
   </dependencies>
-  <build>
-  	<plugins>
-  	 	<plugin>
-		<groupId>net.sf.mavenjython</groupId>
-		<artifactId>maven-jython-compile-plugin</artifactId>
-		<version>your-plugin-version-here</version>
-		<executions>
-		  <execution>
- 		    <phase>package</phase>
-                    <goals>
-                      <goal>jython</goal>
-                    </goals>
-                  </execution>
-                </executions>
-                <configuration>
-                  <libraries>
-                    <param>nose</param>
-                  </libraries>
-                </configuration>
-        </plugin>
-  	</plugins>
-  </build>
   </project>
